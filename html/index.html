@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<html lang="en">
+	<title>Exercices scrapple OC</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="container">
+		<header>
+			<img src="../images/scrapple.svg" alt="Logo scrapple">
+			<nav>
+				<ul>
+					<li>Home</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div id="slider">
+				<div id="sliderImg">
+					<img src="../images/abc-block.svg">
+				</div>
+				<div id="sliderTitle">
+					<h1>Scrapple word<br>score calculator</h1>
+				</div>
+			</div>
+			<div id="descript">
+				<h2>This is a great score calculator!</h2>
+				<p>With this scrapple word score calculator you will be able to calculate several things. Very basically, it is possible to calculate the score of one or more word(s). But, with this calculator, it is also possible to see if the word contains the occurrence "OC", or if the word is a palindrome.</p>
+			</div>
+			<div id="calculator">
+				<div id="calculatorContent">
+					<div id="calculatorInput">
+						<div id="UserInput">
+							<div class="word">
+								<label for="word1">Word 1:</label>
+								<input type="text" name="word1">
+							</div>
+							<div class="word">
+								<label for="word2">Word 2:</label>
+								<input type="text" name="word2">
+							</div>
+						</div>
+						<div id="addMinus">
+							<button id="add">+</button>
+							<button id="delete">
+								<div id="minus"></div>
+							</button>
+						</div>
+					</div>
+					<div id="calculatorResult">
+					</div>
+				</div>
+				<div id="calculatorButtons">
+					<div id="calculatorValidate">
+						<button id="calculatorValidateBtn">Calculate the points for the word(s)</button>
+					</div>
+					<div id="calculatorExtra">
+						<button id="calculatorExtraOC">OC occurrence ?</button>
+						<button id="calculatorExtraPalindrome">Palindrome ?</button>
+					</div>
+				</div>
+			</div>	
+		</main>
+
+		<footer>
+			<p>Copyright 2042</p>
+		</footer>
+	</div>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+</html>
